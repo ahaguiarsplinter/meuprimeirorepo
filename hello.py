@@ -1,3 +1,8 @@
-print("Hello World from macOS Monterey!")
-nome = input("Qual seu nome? ")
-print(f"Olá, {nome}! Bem-vindo ao Python!")
+# Exemplo de modificação para o desafio:
+pontos = 100
+while tentativas > 0:
+    chute = int(input("Chute um número: "))
+    if chute == numero_secreto:
+        print(f"Acertou! Pontuação: {pontos}")
+    else:
+        pontos -= 10
